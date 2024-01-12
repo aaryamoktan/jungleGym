@@ -1,0 +1,135 @@
+.planContainer{
+    width:100%;
+    height:90vh;
+    background-color: rgb(42, 42, 42);
+    color:white
+}
+.planSpan{
+    display:flex;
+    position: relative;
+    font-size: 3rem;
+    text-transform: uppercase;
+    justify-content: space-around;
+}
+.planSpan>span{
+    margin-top: 10rem;
+}
+.plans{
+    position:relative;
+    width:100%;
+    height:80vh;
+    background-color: rgb(42, 42, 42);
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+    top:5rem;
+    margin-top:40px;
+  
+
+}
+.plans>div:nth-last-of-type(3)
+{
+    position:relative;
+    width:20rem;
+    height:25rem;
+    margin-top:2.5rem;
+    background:rgb(101, 100, 100);
+    display:flex;
+    flex-direction: column;;
+    gap:1.5rem;
+}
+.plans>div:nth-last-of-type(2)
+{
+    position:relative;
+    width:20rem;
+    height:30rem;
+    background:rgb(5, 162, 183);
+    display:flex;
+    flex-direction: column;;
+    gap:1.5rem;
+}
+.plans>div:nth-last-of-type(1)
+{
+    position:relative;
+    width:20rem;
+    margin-top:2.5rem;
+    height:25rem;
+    background:rgb(101, 100, 100);
+    display:flex;
+    flex-direction: column;;
+    gap:1.5rem;
+}
+.span2{
+    position:relative;
+    text-transform: uppercase;
+    left:2rem;
+    font-size: 1rem;
+}
+.span3{
+    position:relative;
+    text-transform: uppercase;
+    left:2rem;
+    top:-1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.span4{
+    position:relative;
+    text-transform: uppercase;
+    top: -2rem;
+    left:2rem;
+}
+.span5{
+    position:relative;
+    text-transform: uppercase;
+    left:2rem;
+    top: -3rem;
+}
+.span1{
+    position:relative;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color:orange;
+    left:2rem;
+}
+button{
+    position:relative;
+    width:10rem;
+    left:4.5rem;
+    cursor: pointer;
+    border:none;
+    color:black
+}
+.spans2{
+    position:relative;
+    text-transform: uppercase;
+    left:2rem;
+    font-size: 2rem;
+}
+.spans3{
+    position:relative;
+    text-transform: uppercase;
+    left:2rem;
+    top:-1rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.spans4{
+    position:relative;
+    text-transform: uppercase;
+    top: -2rem;
+    left:2rem;
+}
+.spans5{
+    position:relative;
+    text-transform: uppercase;
+    left:2rem;
+    top: -3rem;
+}
+.spans1{
+    position:relative;
+    text-transform: uppercase;
+    font-size: 5rem;
+    color:orange;
+    left:2rem;
+}
