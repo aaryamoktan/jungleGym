@@ -4,6 +4,7 @@ import heart from "./image/heart.png"
 import body from "./image/body4.png"
 import back from "./image/l.png"
 import cal from "./image/cal.png"
+import Testo from './Content/testomonial/Testo';
 import Programs from './Content/Programs/Programs';
 import {
   BrowserRouter,
@@ -11,9 +12,10 @@ import {
   Routes,
 } from "react-router-dom";
 import Nevbar from './Content/Nevbar/Nevbar';   
-import Footer from './Content/footer/Footer';
+
 import Whyus from './Content/whyus/Whyus';
 import { WiDirectionUp } from "react-icons/wi";
+import Footer from './Content/footer/Footer';
 import Plans from './Content/Plans/Plans';
 function App() {
   return (
@@ -73,6 +75,8 @@ function App() {
       <Programs/>
       <Whyus/>
       <Plans/>
+      <Testo/>
+      <Footer/>
     </>
   );
 }

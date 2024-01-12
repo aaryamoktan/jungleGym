@@ -12,7 +12,7 @@ const Nevbar = () => {
         <li><a href="#programs" style={{textDecoration:"none",color:"white"}}>Programs</a></li>
         <li><a href="#why" style={{textDecoration:"none",color:"white"}}>Why us</a></li>
         <li><a href="#plans" style={{textDecoration:"none",color:"white"}}>Plans</a></li>
-        <li><a href="#testimonials" style={{textDecoration:"none",color:"white"}}>Testimonials</a></li>
+        <li><a href="#testo" style={{textDecoration:"none",color:"white"}}>Testimonials</a></li>
       </ul>
      </div>
     </>

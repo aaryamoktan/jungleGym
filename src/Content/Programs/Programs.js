@@ -24,7 +24,7 @@ const Programs = () => {
             <span><MdOutlineLocalFireDepartment/></span>
                 <span>Fat burning</span>
                 <span>In this program, we main do exercise which helap to  burn of calories as much as we can</span>
-                <button>Join Now <span><WiDirectionRight/></span></button>
+                <button className=''>Join Now <span><WiDirectionRight/></span></button>
             </div>
             <div>
             <span><FaRunning/></span>
