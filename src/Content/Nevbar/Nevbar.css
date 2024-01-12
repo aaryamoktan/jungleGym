@@ -2,17 +2,23 @@
     display:flex;
     width:100%;
     justify-content: space-between;
+    height:10vh;
+    background:rgb(42, 42, 42);
    
     
   }
   .logo{
     width:10rem;
+    margin-top: 2rem;
     height:3rem
   }
   .header-menu
   {
+    position:absolute;
     list-style: none;
+    top: 1.5rem;
     display:flex;
+    left:37rem;
     gap:2rem;
     color:white;
     font-size: 18px;

@@ -1,3 +1,5 @@
+@media screen and (min-width:1024px) {
+
 .programs{
     display:flex;
     flex-direction: column;
@@ -65,4 +67,93 @@
     top:15rem;
     margin-left: 20px;
     font-size: 20px;
+}
+}
+@media screen and (max-width:676px) {
+    .programs{
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        width:100%;
+        height:auto;
+        background:rgb(42, 42, 42);
+        text-align: center;
+    }
+    .programsSpan{
+        position:relative;
+        display:flex;
+        flex-direction: column;
+    }
+    .programsSpan>span:nth-last-of-type(2)
+    {
+        position:relative;
+        color:white;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+    .programsSpan>span:nth-last-of-type(1)
+    {
+        position:relative;
+        color:white;
+        font-size: 3rem;  
+    }
+    .programsSpan>span:nth-last-of-type(3)
+    {
+        position:relative;
+        color:white;
+        font-size: 3rem;  
+    }
+    .programdown{
+        position:relative;
+        display:flex;
+        flex-direction: column;
+        gap:3rem;
+        margin-top:5rem;
+       
+    }
+    .programdown>div{
+        width:80%;
+       margin-left: 10%;
+        height:50vh;
+        color:white;
+        border-radius: 20px;
+        background-color: rgb(85, 84, 84);
+       
+    }
+    .programdown>div:nth-last-of-type(5)
+    {
+        position:relative;
+        
+    }
+    .programdown>div>span{
+        position:relative;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .programdown>div>span:nth-last-of-type(3){
+        position:relative;
+        font-size: 60px;
+        color:orange;
+        margin-top:20px;
+        
+        
+    }
+    .programdown>div>span:nth-last-of-type(2){
+        position:relative;
+       font-size: 25px;
+       font-weight: bold;
+        margin-top:20px; 
+    }
+    .programdown>div>span:nth-last-of-type(1){
+        position:relative;
+        font-size: 20px;
+        margin-top:20px;
+    }
+    .programdown>div>button{
+        position:relative;
+       margin-top:50px;
+        left:-5px;
+    }
+    
 }

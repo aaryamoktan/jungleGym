@@ -1,3 +1,6 @@
+@media screen and (min-width:1024px) {
+    
+
 .whyContiner{
     width:100%;
     display:flex;
@@ -56,4 +59,54 @@
     text-transform: uppercase;
    
     margin-left: 4rem;
+}
+}
+@media screen and (max-width:676px){
+    .whyContiner{
+        position: relative;
+        background-color: rgb(42, 42, 42);
+        display:flex;
+        width:100%;
+        height:auto;
+        flex-direction: column;
+    }
+    .whyimg
+    {
+        position:relative;
+        width:100%;
+        height:60vh;
+    }
+    .whyimg>img{
+        position:relative;
+        width:100%;
+        height:100%;
+    }
+    .whyus{
+        display:flex;
+        flex-direction: column;
+        color:white;
+        gap:1rem;
+        position:relative;
+        margin-top: 10rem;;
+    }
+    .whyus>span{
+        position:relative;
+        left:4rem;
+        font-size: 1.5rem;
+    }
+    .whyus>span:nth-last-of-type(1)
+    {
+        font-size: 3rem;
+        margin-left: 5rem;
+    }
+    .whyus>span:nth-last-of-type(2)
+    {
+        font-size: 1.5rem;
+        margin-left: 5rem;
+        
+    }
+    .whyus>span:nth-last-of-type(7)
+    {
+        font-size: 3rem;
+    }
 }

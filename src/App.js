@@ -20,9 +20,10 @@ import Plans from './Content/Plans/Plans';
 function App() {
   return (
     <>
+     <Nevbar />
       <div className='App1'>
         <div className='left-h'>
-          <Nevbar />
+         
           
           <div className='thebestAdd'>
             <div></div>
