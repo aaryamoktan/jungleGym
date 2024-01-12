@@ -35,7 +35,7 @@ function App() {
             <div>
               <span>Ideal Body</span>
             </div>
-            <div><span>In here we will hepl you to shape and build your ideal body and live up your life to fullest</span></div>
+            <div><span>In here we will help you to shape and build your ideal body and live up your life to fullest</span></div>
           </div>
           <div className='figure'>
             <div><span>+140</span><span>export coachs</span></div>

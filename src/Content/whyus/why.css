@@ -91,7 +91,7 @@
     }
     .whyus>span{
         position:relative;
-        left:4rem;
+        left:3rem;
         font-size: 1.5rem;
     }
     .whyus>span:nth-last-of-type(1)
@@ -109,4 +109,5 @@
     {
         font-size: 3rem;
     }
+   
 }
