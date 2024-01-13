@@ -1,3 +1,4 @@
+@media screen  and (min-width:1024px){
 .planContainer{
     width:100%;
     height:90vh;
@@ -132,4 +133,119 @@ button{
     font-size: 5rem;
     color:orange;
     left:2rem;
+}
+}
+@media screen and (max-width:600px) {
+    .planContainer{
+        width:100%;
+        height:auto;
+        background-color: rgb(42, 42, 42);
+        color:white
+    }
+    .planSpan{
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        top:8rem;
+        text-align: center;
+        gap:1rem;
+        font-size: 3rem;
+        text-transform: uppercase;
+        justify-content: space-around;
+    }
+    .plans{
+        position:relative;
+        width:100%;
+        height:auto;
+        background-color: rgb(42, 42, 42);
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:1rem;
+        margin-top:10rem;
+        align-items: center;
+    }
+    .plans>div:nth-last-of-type(3)
+    {
+        position:relative;
+        width:20rem;
+        height:auto;
+        background:rgb(101, 100, 100);
+        display:flex;
+        flex-direction: column;;
+        gap:1.5rem;
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+    .plans>div:nth-last-of-type(2)
+    {
+        position:relative;
+        width:20rem;
+        height:auto;
+        background:rgb(5, 162, 183);
+        text-align: center;
+        display:flex;
+        flex-direction: column;;
+        gap:2rem;
+        border-radius: 20px;
+    }
+    .plans>div:nth-last-of-type(1)
+    {
+        position:relative;
+        width:20rem;
+        margin-top:.5rem;
+        height:auto;
+        background:rgb(101, 100, 100);
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        gap:1.5rem;
+        border-radius: 20px;
+    }
+    .span1{
+        font-size: 40px;
+        margin-top:10px;
+        position:relative;
+        left:-10px;
+        color:orange;
+    }
+    .span2{
+        font-size: 45px;
+        margin-top: -20px;
+    }
+    .span3{
+        font-size: 35px;
+        margin-top: -20px;
+    }
+    .span5{
+        margin-top: -20px;
+    }
+    .plansshop{
+        width:40%;
+        position:relative;
+        left:30%;
+        margin-bottom: 20px;
+    }
+    .spans1{
+        position:relative;
+        font-size: 8rem;
+        margin-top: -40px;
+        color:orange;
+    }
+    .spans2{
+        position:relative;
+        margin-top:-20px;
+        font-size: 2.5rem;
+    }
+    .spans3{
+        position:relative;
+        margin-top:-20px;
+        font-size: 2rem;
+    }
+    .spans5{
+        margin-top: -20px;
+    }
+    
+    
 }

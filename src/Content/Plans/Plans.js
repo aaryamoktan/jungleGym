@@ -21,7 +21,7 @@ const Plans = () => {
             <span className='span4'><span></span><span>2 hours of excercise</span></span>
             <span className='span5'><span></span><span>Access to the  community</span></span>
             
-            <button><Link to="/plan" style={{textDecoration:"none",color:"black"}}>Join Now</Link></button>
+            <button className='plansshop'><Link to="/plan" style={{textDecoration:"none",color:"black"}}>Join Now</Link></button>
 
             </div>
             <div className='plans2'>
@@ -31,7 +31,7 @@ const Plans = () => {
             <span className='spans4'><span></span><span>5 hours of excercise</span></span>
             <span className='spans5'><span></span><span>Access to the  minibar</span></span>
             
-            <button><Link to="/plan" style={{textDecoration:"none",color:"black"}}>Join Now</Link></button>
+            <button className='plansshop'><Link to="/plan" style={{textDecoration:"none",color:"black"}}>Join Now</Link></button>
             </div>
             <div className=' plans3'>
             <span className='span1'><LuDumbbell/></span>
@@ -39,7 +39,7 @@ const Plans = () => {
             <span className='span3'>$ 45</span>
             <span className='span4'><span></span><span>8 hours of excercise</span></span>
             <span className='span5'><span></span><span>Access to the  all services</span></span>
-            <button ><Link to="/plan" style={{textDecoration:"none",color:"black"}}>Join Now</Link></button>
+            <button className='plansshop' ><Link to="/plan" style={{textDecoration:"none",color:"black"}}>Join Now</Link></button>
             </div>
         </div>
     </div>
