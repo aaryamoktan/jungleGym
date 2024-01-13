@@ -75,6 +75,7 @@
         flex-direction: column;
         position:relative;
         width:100%;
+        overflow-x: hidden;
         height:auto;
         background:rgb(42, 42, 42);
         text-align: center;

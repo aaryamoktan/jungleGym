@@ -138,6 +138,7 @@ button{
 @media screen and (max-width:600px) {
     .planContainer{
         width:100%;
+        overflow-x: hidden;
         height:auto;
         background-color: rgb(42, 42, 42);
         color:white

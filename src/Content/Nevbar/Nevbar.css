@@ -34,6 +34,7 @@
   .header{
     display:flex;
     width:100%;
+    
     justify-content: space-between;
     height:10vh;
     background:rgb(42, 42, 42);  
