@@ -378,8 +378,8 @@
   .calories>img{
     position:absolute;
     width:5rem;
-    margin-top:-4rem;
-    left: 21.5rem;
+    margin-top:-4.5rem;
+    left: 20.5rem;
   }
   .calories>div{
     position:relative;
@@ -389,6 +389,10 @@
     text-align: center;
     left:9rem;
     margin-top:-10rem;
+  }
+  .calories>div>span:nth-last-of-type(1){
+    position:relative;
+    left:5px;
   }
   .heart-rate>span:nth-last-of-type(1){
     color:white;
