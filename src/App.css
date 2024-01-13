@@ -415,7 +415,11 @@
   }
   .calories>div>span:nth-last-of-type(1){
     position:relative;
-    left:5px;
+    left:10px;
+  }
+  .calories>div>span:nth-last-of-type(2){
+    position:relative;
+    left:10px;
   }
   .heart-rate>span:nth-last-of-type(1){
     color:white;
