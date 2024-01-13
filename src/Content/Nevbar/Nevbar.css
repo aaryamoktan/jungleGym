@@ -1,11 +1,10 @@
-.header{
+@media screen and (min-width:1024px) {
+  .header{
     display:flex;
     width:100%;
     justify-content: space-between;
     height:10vh;
-    background:rgb(42, 42, 42);
-   
-    
+    background:rgb(42, 42, 42);  
   }
   .logo{
     width:10rem;
@@ -30,3 +29,22 @@
     cursor: pointer;
     color:orange;
   }
+}
+@media screen and (max-width:676px) {
+  .header{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    height:10vh;
+    background:rgb(42, 42, 42);  
+  }
+  .logo{
+    width:10rem;
+    margin-top: 2rem;
+    height:3rem
+  }
+  .header-menu
+  {
+    display: none;
+  }
+}

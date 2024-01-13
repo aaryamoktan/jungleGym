@@ -120,7 +120,7 @@
         width:100%;
         margin-top:10rem;
         display:flex;
-        margin-left: .5rem;
+        left: .5rem;
         color:white;
         flex-direction: column;
         gap:1.5rem;

@@ -332,7 +332,7 @@
     position:relative;
     margin-top: 40px;
     background-color: #61dafb;
-    margin-left:40px;
+    left:40px;
   }
   .hero-button>button:nth-last-of-type(1)
   {

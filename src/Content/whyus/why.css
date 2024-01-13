@@ -95,13 +95,15 @@
     }
     .whyus>span:nth-last-of-type(1)
     {
+        position:relative;
         font-size: 3rem;
-        margin-left: 5rem;
+        left: 5rem;
     }
     .whyus>span:nth-last-of-type(2)
     {
+        position:relative;
         font-size: 1.5rem;
-        margin-left: 5rem;
+        left: 5rem;
         
     }
     .whyus>span:nth-last-of-type(7)

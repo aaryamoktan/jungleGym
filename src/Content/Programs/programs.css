@@ -112,8 +112,9 @@
        
     }
     .programdown>div{
+        position:relative;
         width:80%;
-        margin-left: 10%;
+        left: 10%;
         height:50vh;
         color:white;
         border-radius: 20px;
