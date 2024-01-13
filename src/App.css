@@ -269,7 +269,7 @@
   .thebestAdd>span{
     position:absolute;
     z-index:1;
-    margin-top:.7rem;
+    margin-top:1rem;
     font-size: 18px;
     left:0.7rem;
     text-transform: uppercase;
@@ -378,7 +378,7 @@
   .calories>img{
     position:absolute;
     width:5rem;
-    top:13rem;
+    margin-top:-4rem;
     left: 21.5rem;
   }
   .calories>div{
@@ -388,7 +388,7 @@
     flex-direction: column;
     text-align: center;
     left:9rem;
-    margin-top:-12rem;
+    margin-top:-10rem;
   }
   .heart-rate>span:nth-last-of-type(1){
     color:white;

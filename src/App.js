@@ -23,15 +23,12 @@ function App() {
      <Nevbar />
       <div className='App1'>
         <div className='left-h'>
-         
-          
           <div className='thebestAdd'>
             <div></div>
             <span> the best fitness club in the town</span>
           </div>
           <div className='hero-text'>
             <div><span className='stroke-text'>Shape </span><span> Your</span></div>
-
             <div>
               <span>Ideal Body</span>
             </div>
