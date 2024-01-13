@@ -88,6 +88,16 @@
   left:8px;
   z-index: 1;
   border-radius: 3rem;
+  animation: 3s infinite alternate slidein;
+}
+@keyframes slidein {
+  0%{
+    left:0%;
+  }
+  50%{
+    left:70%;
+  }
+  
 }
 .hero-text{
   display:flex;
@@ -265,6 +275,7 @@
     border-radius: 20px;
     font-size: 20px;
     background:#303335;
+    
   }
   .thebestAdd>span{
     position:absolute;
@@ -275,12 +286,23 @@
     text-transform: uppercase;
   }
   .thebestAdd>div{
-    width:20%;
-    height:7vh;
+    width:30%;
+    height:6vh;
+    margin-top: 1%;
     position:absolute;
     left:1%;
     border-radius: 20px;
     background-color: rgb(0, 149, 255);
+    animation: 3s infinite alternate slidein;
+  }
+  @keyframes slidein {
+    0%{
+      left:0%;
+    }
+    50%{
+      left:70%;
+    }
+    
   }
   .hero-text>div:nth-last-of-type(3){
     position:relative;
