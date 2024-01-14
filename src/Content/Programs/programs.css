@@ -27,6 +27,8 @@
     color:white;
     text-transform: uppercase;
     font-style: italic;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .programdown{
     position:relative;

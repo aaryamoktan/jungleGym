@@ -10,9 +10,9 @@ const Programs = () => {
   return (
     <div className='programs' id="programs">
         <div className='programsSpan'>
-            <span className='stroke-text'>Explore Our</span>
-            <span>programs</span>
-            <span className='stroke-text'>to shape you</span>
+            <span className='stroke-text'>Explore Our </span>
+            <span> programs  </span>
+            <span className='stroke-text' > to shape you</span>
         </div>
         <div className='programdown'>
             <div>

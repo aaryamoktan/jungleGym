@@ -1,8 +1,402 @@
 @media screen and (min-width:1024px) {
     .programd{
         position:relative;
+        display:flex;
+        flex-direction: column;
         width:100%;
-        height:100vh;
+        height:auto;
+        align-items: center;
         background:rgb(42, 42, 42);
+        color:whte;
     }
+    
+    .programd>.div1 {
+        display:flex;
+        justify-content: center;
+        width:100%;
+        height:70vh;
+        margin-bottom: 10rem;
+        color:white;
+        
+    }
+    .programd>.div1>.programLl{
+        position:relative;
+        width:30%;
+        height:80vh;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: center;
+    }
+    .programd>.div1>.programLl>span:nth-last-of-type(3)
+    {
+        position:relative;
+        font-size:10rem
+    }
+    .programd>.div1>.programLl>span:nth-last-of-type(2)
+    {
+        position:relative;
+        font-size:3rem
+    }
+    .programd>.div1>.programLl>span:nth-last-of-type(1)
+    {
+        position:relative;
+        font-size:1rem
+    }
+    .programd>.div1>.programLr{
+        position:relative;
+        width:40%;
+        left:10rem;
+        height:80vh;    
+    }
+    .programd>.div1>.programLr>img{
+        position:relative;
+        width:90%;
+    }
+    .programd>.div2{
+        display:flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        width:100%;
+        height:70vh;
+        margin-bottom: 10rem;
+        color:white;
+        
+    }
+    .programd>.div2>.programLl{
+        position:relative;
+        width:30%;
+        height:80vh;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: center;
+    }
+    .programd>.div2>.programLl>span:nth-last-of-type(3)
+    {
+        position:relative;
+        font-size:10rem
+    }
+    .programd>.div2>.programLl>span:nth-last-of-type(2)
+    {
+        position:relative;
+        font-size:3rem
+    }
+    .programd>.div2>.programLl>span:nth-last-of-type(1)
+    {
+        position:relative;
+        font-size:1rem
+    }
+    .programd>.div2>.programLr{
+        position:relative;
+        width:40%;
+        left:10rem;
+        height:80vh;    
+    }
+    .programd>.div2>.programLr>img{
+        position:relative;
+        left:-18rem;
+        width:90%;
+    }
+    .programd>.div3 {
+        display:flex;
+        justify-content: center;
+        width:100%;
+        height:70vh;
+        margin-bottom: 10rem;
+        color:white;
+        
+    }
+    .programd>.div3>.programLl{
+        position:relative;
+        width:30%;
+        height:80vh;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: center;
+    }
+    .programd>.div3>.programLl>span:nth-last-of-type(3)
+    {
+        position:relative;
+        font-size:10rem
+    }
+    .programd>.div3>.programLl>span:nth-last-of-type(2)
+    {
+        position:relative;
+        font-size:3rem
+    }
+    .programd>.div3>.programLl>span:nth-last-of-type(1)
+    {
+        position:relative;
+        font-size:1rem
+    }
+    .programd>.div3>.programLr{
+        position:relative;
+        width:40%;
+        left:10rem;
+        height:80vh;    
+    }
+    .programd>.div3>.programLr>img{
+        position:relative;
+        left:10rem;
+        width:40%;
+    }
+    .programd>.div4{
+        display:flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        
+        width:100%;
+        height:70vh;
+        margin-bottom: 10rem;
+        color:white;
+        
+    }
+    .programd>.div4>.programLl{
+        position:relative;
+        width:30%;
+        height:80vh;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: center;
+    }
+    .programd>.div4>.programLl>span:nth-last-of-type(3)
+    {
+        position:relative;
+        font-size:10rem
+    }
+    .programd>.div4>.programLl>span:nth-last-of-type(2)
+    {
+        position:relative;
+        font-size:3rem
+    }
+    .programd>.div4>.programLl>span:nth-last-of-type(1)
+    {
+        position:relative;
+        font-size:1rem
+    }
+    .programd>.div4>.programLr{
+        position:relative;
+        width:40%;
+        left:10rem;
+        height:80vh;    
+    }
+    .programd>.div4>.programLr>img{
+        position:relative;
+        left:-18rem;
+        width:90%;
+        margin-top: 10rem;
+        bottom:10rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .programd{
+        position:relative;
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        height:auto;
+        overflow-x: hidden;;
+        align-items: center;
+        background:rgb(42, 42, 42);
+        color:white;
+    }
+    
+    .programd>.div1{
+        position:relative;
+         width:100%;
+         height:auto;
+       
+         margin-bottom: 2rem;
+         color:white; 
+     }
+     .programd>.div1>.programLl{
+         position:relative;
+         width:100%;
+         height:auto;
+         display: flex;
+         flex-direction: column;
+         gap:2rem;
+         align-items: center;
+     }
+     .programd>.div1>.programLl>span:nth-last-of-type(3)
+     {
+         position:relative;
+         font-size:6rem
+     }
+     .programd>.div1>.programLl>span:nth-last-of-type(2)
+     {
+         position:relative;
+         font-size:3rem
+     }
+     .programd>.div1>.programLl>span:nth-last-of-type(1)
+     {
+         position:relative;
+         font-size:1rem
+     }
+     .programd>.div1>.programLr{
+         position:relative;
+         width:100%;
+         overflow-x: hidden;
+         display:flex;
+         align-items: center;
+         height:auto;    
+     }
+     
+     .programd>.div1>.programLr>img{
+         position:relative;
+         left:7.5rem;
+         margin-top:3rem;
+         width:70%;
+ 
+     }
+     
+    .programd>.div2 {
+       position:relative;
+        width:100%;
+        height:auto;
+        overflow-x: hidden;
+        margin-bottom: 5rem;
+        color:white; 
+    }
+    .programd>.div2>.programLl{
+        position:relative;
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        align-items: center;
+    }
+    .programd>.div2>.programLl>span:nth-last-of-type(3)
+    {
+        position:relative;
+        font-size:6rem
+    }
+    .programd>.div2>.programLl>span:nth-last-of-type(2)
+    {
+        position:relative;
+        font-size:3rem
+    }
+    .programd>.div2>.programLl>span:nth-last-of-type(1)
+    {
+        position:relative;
+        font-size:1rem
+    }
+    .programd>.div2>.programLr{
+        position:relative;
+        width:100%;
+        overflow-x: hidden;
+        display:flex;
+        align-items: center;
+        height:auto;    
+    }
+    
+    .programd>.div2>.programLr>img{
+        position:relative;
+        left:4rem;
+        margin-top:3rem;
+        width:70%;
+
+    }
+    
+    .programd>.div3 {
+        position:relative;
+         width:100%;
+         height:auto;
+         overflow-x: hidden;
+         margin-bottom: 2rem;
+         color:white; 
+     }
+     .programd>.div3>.programLl{
+         position:relative;
+         width:100%;
+         height:auto;
+         display: flex;
+         flex-direction: column;
+         gap:2rem;
+         align-items: center;
+     }
+     .programd>.div3>.programLl>span:nth-last-of-type(3)
+     {
+         position:relative;
+         font-size:6rem
+     }
+     .programd>.div3>.programLl>span:nth-last-of-type(2)
+     {
+         position:relative;
+         font-size:3rem
+     }
+     .programd>.div3>.programLl>span:nth-last-of-type(1)
+     {
+         position:relative;
+         font-size:1rem
+     }
+     .programd>.div3>.programLr{
+         position:relative;
+         width:100%;
+         overflow-x: hidden;
+         display:flex;
+         align-items: center;
+         height:auto;    
+     }
+     
+     .programd>.div3>.programLr>img{
+         position:relative;
+         left:4rem;
+         margin-top:3rem;
+         width:70%;
+ 
+     }
+     .programd>.div4 {
+        position:relative;
+         width:100%;
+         height:auto;
+         overflow-x: hidden;
+         margin-bottom: 10rem;
+         color:white; 
+     }
+     .programd>.div4>.programLl{
+         position:relative;
+         width:100%;
+         height:auto;
+         display: flex;
+         flex-direction: column;
+         gap:2rem;
+         align-items: center;
+     }
+     .programd>.div4>.programLl>span:nth-last-of-type(3)
+     {
+         position:relative;
+         font-size:6rem
+     }
+     .programd>.div4>.programLl>span:nth-last-of-type(2)
+     {
+         position:relative;
+         font-size:3rem
+     }
+     .programd>.div4>.programLl>span:nth-last-of-type(1)
+     {
+         position:relative;
+         font-size:1rem
+     }
+     .programd>.div4>.programLr{
+         position:relative;
+         width:100%;
+         overflow-x: hidden;
+         display:flex;
+         align-items: center;
+         height:auto;    
+     }
+     
+     .programd>.div4>.programLr>img{
+         position:relative;
+         left:4rem;
+         margin-top:3rem;
+         width:70%;
+ 
+     }
+     
 }

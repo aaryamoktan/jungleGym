@@ -2,8 +2,14 @@
     .plansd
     {
         position:relative;
+        display:flex;
+        flex-direction: column;
         width:100%;
-        height:100vh;
+        height:auto;
+        align-items: center;
         background:rgb(42, 42, 42);
+    }
+    .plansd>img{
+        position:relative
     }
 }

@@ -16,7 +16,6 @@ function App() {
   return (
     <>
     <Nevbar/>
-     
       <div className='App1'>
         <div className='left-h'>
           <div className='thebestAdd'>
@@ -47,7 +46,10 @@ function App() {
           </div>
         </div>
         <div className='right-h'>
-          <button className='btn'>Join Now</button>
+          <button className='btn'> <Link to="/plan" onClick={()=>
+        {
+            window.scrollTo(0,0)
+        }} style={{textDecoration:"none",color:"black"}}>Join Now</Link></button>
           <div className='heart-rate'>
             <img src={heart} alt="heart"/>
             <span>Heart Rate</span><span>116 bpm</span>
