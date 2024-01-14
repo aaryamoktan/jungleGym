@@ -8,5 +8,228 @@
         height:auto;
         align-items: center;
         background:rgb(42, 42, 42);
+        color:white;
     }
+    .getstartContainer>.getStartwithus{
+        display:flex;
+        font-size: 10rem;
+        text-transform: uppercase;
+        gap:4rem
+
+    }
+    .getstartContainer>.getStartwithus>span:nth-last-of-type(2)
+    {
+        color:rgb(0, 149, 255);
+    }
+    .ditePlan
+    {
+        position:relative;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:5rem;
+        align-items: center;
+        gap:2rem;
+        width:100%;
+        height:auto;
+    }
+    .ditePlan>span:nth-last-of-type(2)
+    {
+        position:relative;
+        font-size: 4rem;
+        color:rgb(0, 149, 255);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .ditePlan>span:nth-last-of-type(1)
+    {
+        position:relative;
+        font-size: 3rem;
+        color:rgb(245, 198, 110);
+        font-family:Arial, Helvetica, sans-serif
+    }
+    .ditePlan>img{
+        position:relative;
+        width:50%;
+    }
+    .dietImg{
+        position:relative;
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-wrap: wrap;
+        margin-top: 4rem;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .dietImg>div{
+        position:relative;
+        width:30%;
+        height:50vh;
+        border-radius:20px ;
+    }
+    .dietImg>div>img{
+        position:relative;
+        width:100%;
+        height:100%;
+    }
+    .exercisePlan{
+        position:relative;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:auto;
+    }
+    .exercisePlan>span:nth-last-of-type(2){
+        position:relative;
+        text-transform: uppercase;
+        margin-top: 10rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3rem;
+    }
+    .exercisePlan>span:nth-last-of-type(1){
+        position:relative;
+        text-transform: uppercase;
+        margin-top: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3rem;
+    }
+    .exercisePlan>img{
+        position:relative;
+        height: 100vh;
+        margin-bottom: 5rem;
+    }
+    .motivationD{
+        position:relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height:30vh;
+        font-size: 2rem;
+        font-family:'Courier New', Courier, monospace;
+    }
+}
+@media screen and (max-width:600px) {
+    .getstartContainer
+    {
+        position:relative;
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        height:auto;
+        overflow-x: hidden;
+        align-items: center;
+        background:rgb(42, 42, 42);
+        color:white;
+    }
+    .getstartContainer>.getStartwithus{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 5rem;
+        text-transform: uppercase;
+        gap:1rem
+
+    }
+    .getstartContainer>.getStartwithus>span:nth-last-of-type(2)
+    {
+        color:rgb(0, 149, 255);
+    }
+    .ditePlan
+    {
+        position:relative;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:2rem;
+        align-items: center;
+        gap:2rem;
+        width:100%;
+        height:auto;
+    }
+    .ditePlan>span:nth-last-of-type(2)
+    {
+        position:relative;
+        font-size: 3rem;
+        color:rgb(0, 149, 255);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .ditePlan>span:nth-last-of-type(1)
+    {
+        position:relative;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        color:rgb(245, 198, 110);
+    }
+    .ditePlan>img{
+        position:relative;
+        width:90%;
+    }
+    .dietImg{
+        position:relative;
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .dietImg>div{
+        position:relative;
+        width:100%;
+        height:50vh;
+        border-radius:20px ;
+    }
+    .dietImg>div>img{
+        position:relative;
+        width:100%;
+        height:100%;
+    }
+    .exercisePlan{
+        position:relative;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:auto;
+    }
+    .exercisePlan>span:nth-last-of-type(2){
+        position:relative;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3rem;
+    }
+    .exercisePlan>span:nth-last-of-type(1){
+        position:relative;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3rem;
+    }
+    .exercisePlan>img{
+        position:relative;
+        height: 100vh;
+        margin-bottom: 5rem;
+    }
+    .motivationD{
+        position:relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width:100%;
+        height:30vh;
+        font-size: 2rem;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
 }
