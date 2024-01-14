@@ -207,7 +207,7 @@
     .test-r>button{
         position:relative;
         margin-top:30rem;
-        
+        height:4vh;
         text-transform: capitalize;
         border: 2px solid orange;
         background: transparent;
