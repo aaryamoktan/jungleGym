@@ -53,7 +53,8 @@ function App() {
           <img src={body} alt="" className='hero-img'/>
           
           <div className='calories'>
-            <img src={cal}/>
+          <img src={cal}/>
+            
             <div>
             <span>Calories Burns</span>
             <span>220 kcl</span>
