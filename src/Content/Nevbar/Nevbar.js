@@ -6,8 +6,10 @@ const Nevbar = () => {
   return (
     <>
      <div className='header'>
+     <div className=''>
       <img src={logo} alt="myimg" className='logo'/>
       <p>Jungle gym</p>
+      </div>
       <ul className='header-menu'>
       <li><a href="/" style={{textDecoration:"none",color:"white"}}>Home</a></li>
         <li><a href="#programs" style={{textDecoration:"none",color:"white"}}>Programs</a></li>

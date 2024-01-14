@@ -39,12 +39,13 @@
     color:orange;
   }
 }
-@media screen and (max-width:676px) {
+@media screen and (max-width:600px) {
   .header{
-    display:flex;
+   
     width:100%;
     position:relative;
-   
+    display:flex;
+    margin-left: center;
     justify-content: space-between;
     height:10vh;
     background:rgb(42, 42, 42);  
@@ -54,7 +55,8 @@
     width:10rem;
     margin-top: 2rem;
     height:4rem;
-    left: 10rem;
+    left: 10.5rem;
+    
   }
   p{
     position: absolute;

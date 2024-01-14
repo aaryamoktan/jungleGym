@@ -29,7 +29,7 @@
         font-family: 'Courier New', Courier, monospace;
     }
 }
-@media screen and (max-width:676px) {
+@media screen and (max-width:600px) {
     .footerContainer{
         position:relative;
         width:100%;
