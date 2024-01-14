@@ -371,6 +371,7 @@
     height:90vh;
     display:flex;
     flex-direction: column;
+    top:-5rem;
     justify-content: center;
     align-items: center;
 
@@ -415,7 +416,7 @@
   .calories{
     position:relative;
     margin-top:4rem;
-    left: 22%;
+    left: 21%;
   }
   .calories>img{
     position:absolute;
