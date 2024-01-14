@@ -154,7 +154,9 @@
     .testo-l>span:nth-last-of-type(2)
     {
         font-size: 20px;
-        text-transform: capitalize;   
+        text-transform: capitalize;  
+        position:relative;
+        left:-5px;
     }
     .testo-l>span:nth-last-of-type(1)
     {
