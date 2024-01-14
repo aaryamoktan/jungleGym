@@ -381,7 +381,7 @@
     color:white;
     margin-top:35rem;
     background:rgb(9, 188, 237);
-    left:20rem;
+    left:19rem;
   }
   .btn:hover{
     color:rgb(73, 73, 73);
@@ -415,7 +415,7 @@
   
   .calories{
     position:relative;
-    margin-top:4rem;
+    margin-top:7rem;
     left: 21%;
   }
   .calories>img{
