@@ -388,7 +388,7 @@
   }
   .heart-rate{
     position:relative;
-    left:20%;
+    left:30%;
     margin-top:10%
   }
   .heart-rate>img{
@@ -415,7 +415,7 @@
   .calories{
     position:relative;
     margin-top:3rem;
-    margin-left: 20%;
+    left: 21%;
   }
   .calories>img{
     position:absolute;
