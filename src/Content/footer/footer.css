@@ -48,7 +48,7 @@
         left: 10rem;
         margin-top: 2rem;
         align-items: center;
-        font-size: 30px;
+        font-size: 15px;
         display:flex;
         gap:2rem
         
@@ -58,7 +58,7 @@
         position:relative;
         left:5rem;
         top:-20%;
-        font-size: 20px;
+        
         font-family: 'Courier New', Courier, monospace;
     }   
 }
