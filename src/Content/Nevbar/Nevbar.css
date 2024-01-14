@@ -7,9 +7,9 @@
     background:rgb(42, 42, 42);  
   }
   .logo{
-   
+   position:absolute;
     width:10rem;
-    margin-top: -1rem;
+    margin-top:0;
   }
   p{
     position: absolute;

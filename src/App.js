@@ -15,6 +15,7 @@ import Plans from './Content/Plans/Plans';
 function App() {
   return (
     <>
+    <Nevbar/>
      
       <div className='App1'>
         <div className='left-h'>
@@ -35,8 +36,14 @@ function App() {
             <div><span>+50</span><span>fitness programs</span></div>
           </div>
           <div className='hero-button'>
-            <button className='btn'><Link to="/getstart" style={{textDecoration:"none",color:"white"}}>Get Started</Link></button>
-            <button className='btn'><Link to="/learnmore" style={{textDecoration:"none",color:"white"}}>Learn More</Link></button>
+            <button className='btn'><Link to="/getstart" onClick={()=>
+        {
+            window.scrollTo(0,0)
+        }}  style={{textDecoration:"none",color:"white"}}>Get Started</Link></button>
+            <button className='btn'><Link to="/learnmore" onClick={()=>
+        {
+            window.scrollTo(0,0)
+        }}  style={{textDecoration:"none",color:"white"}}>Learn More</Link></button>
           </div>
         </div>
         <div className='right-h'>

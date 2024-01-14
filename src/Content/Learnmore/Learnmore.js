@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./learn.css"
 const Learnmore = () => {
   return (
-    <div>Learnmore</div>
+    <div className='learnContainer'>Learnmore</div>
   )
 }
 

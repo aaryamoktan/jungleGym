@@ -40,7 +40,10 @@ const Programs = () => {
             </div>
             
         </div>
-        <button><Link to="/Programsd" style={{textDecoration:"none",color:"black"}}>Join Now <span><WiDirectionRight/></span></Link></button>
+        <button><Link to="/Programsd" onClick={()=>
+        {
+            window.scrollTo(0,0)
+        }}  style={{textDecoration:"none",color:"black"}}>Join Now <span><WiDirectionRight/></span></Link></button>
         
     </div>
   )

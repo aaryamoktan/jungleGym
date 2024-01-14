@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./plansd.css"
 const Plansd = () => {
   return (
-    <div>Plansd</div>
+    <div className='plansd'>Plansd</div>
   )
 }
 

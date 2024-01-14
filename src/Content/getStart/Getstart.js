@@ -1,8 +1,10 @@
 import React from 'react'
-
+import "./getstart.css"
 const Getstart = () => {
   return (
-    <div>Getstart</div>
+    <div className='getstartContainer'>
+      
+    </div>
   )
 }
 

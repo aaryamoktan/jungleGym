@@ -1,8 +1,10 @@
 import React from 'react'
-
+import "./testomore.css"
 const Testomore = () => {
   return (
-    <div>Testomore</div>
+    <div className='trdtomoreContainer'>
+      
+    </div>
   )
 }
 

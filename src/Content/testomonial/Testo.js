@@ -19,7 +19,10 @@ const Testo = () => {
             <div>
                 <img src={img} alt="img"/>
             </div>
-            <button><Link to={"/testomore"} style={{textDecoration:"none ",color:"white"}}>see More</Link></button>
+            <button><Link to={"/testomore"} onClick={()=>
+        {
+            window.scrollTo(0,0)
+        }}  style={{textDecoration:"none ",color:"white"}}>see More</Link></button>
         </div>
     </div></>
   )

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./programsd.css"
 const Programsd = () => {
   return (
-    <div>Programsd</div>
+    <div className='programd'>Programsd</div>
   )
 }
 

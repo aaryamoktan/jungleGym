@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom'
 const LAyout = () => {
   return (
     <>
-        <Nevbar/>
+        
         <Outlet/>
         <Footer/>
     </>
