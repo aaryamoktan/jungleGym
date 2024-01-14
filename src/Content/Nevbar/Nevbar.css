@@ -1,5 +1,5 @@
 @media screen and (min-width:1024px) {
-  .header{
+  .nevbar{
     display:flex;
     width:100%;
     justify-content: space-between;
@@ -7,9 +7,9 @@
     background:rgb(42, 42, 42);  
   }
   .logo{
+   
     width:10rem;
-    margin-top: 2rem;
-    height:5rem
+    margin-top: -1rem;
   }
   p{
     position: absolute;
@@ -20,7 +20,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
   }
-  .header-menu
+  .nevbar-menu
   {
     position:absolute;
     list-style: none;
@@ -34,13 +34,13 @@
     margin-top: 1rem;
   }
  
-  .header-menu>li:hover{
+  .nevbar-menu>li:hover{
     cursor: pointer;
     color:orange;
   }
 }
 @media screen and (max-width:600px) {
-  .header{
+  .nevbar{
    
     width:100%;
     position:relative;
@@ -49,25 +49,24 @@
     justify-content: space-between;
     height:10vh;
     background:rgb(42, 42, 42);  
+    align-items: center;
   }
   .logo{
     position:relative;
-    width:10rem;
-    margin-top: 2rem;
-    height:4rem;
-    left: 7.5rem;
+    width:15rem;
+    margin-top:7rem;
     
   }
   p{
     position: absolute;
     top:6rem;
     font-size: 20px;
-    left: 9rem;
+    left: 15rem;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
   }
-  .header-menu
+  .nevbar-menu
   {
     display: none;
   }

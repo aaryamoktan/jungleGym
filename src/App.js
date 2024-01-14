@@ -6,13 +6,8 @@ import back from "./image/l.png"
 import cal from "./image/cal.png"
 import Testo from './Content/testomonial/Testo';
 import Programs from './Content/Programs/Programs';
-import {
-  BrowserRouter,
-  Route,
-  Routes,
-} from "react-router-dom";
 import Nevbar from './Content/Nevbar/Nevbar';   
-
+import { Link } from 'react-router-dom';
 import Whyus from './Content/whyus/Whyus';
 import { WiDirectionUp } from "react-icons/wi";
 import Footer from './Content/footer/Footer';
@@ -20,7 +15,7 @@ import Plans from './Content/Plans/Plans';
 function App() {
   return (
     <>
-     <Nevbar />
+     
       <div className='App1'>
         <div className='left-h'>
           <div className='thebestAdd'>
@@ -40,8 +35,8 @@ function App() {
             <div><span>+50</span><span>fitness programs</span></div>
           </div>
           <div className='hero-button'>
-            <button className='btn'>Get Started</button>
-            <button className='btn'>Learn More</button>
+            <button className='btn'><Link to="/getstart" style={{textDecoration:"none",color:"white"}}>Get Started</Link></button>
+            <button className='btn'><Link to="/learnmore" style={{textDecoration:"none",color:"white"}}>Learn More</Link></button>
           </div>
         </div>
         <div className='right-h'>
@@ -75,7 +70,7 @@ function App() {
       <Whyus/>
       <Plans/>
       <Testo/>
-      <Footer/>
+      
     </>
   );
 }
