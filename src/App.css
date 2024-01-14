@@ -373,7 +373,7 @@
   .right-h>button{
     position:absolute;
     color:white;
-    margin-top:30rem;
+    margin-top:35rem;
     background:rgb(9, 188, 237);
     left:18rem;
   }
@@ -400,7 +400,7 @@
   }
   .calories{
     position:relative;
-    margin-top:2%;
+    margin-top:5rem;
   }
   .calories>img{
     position:absolute;
