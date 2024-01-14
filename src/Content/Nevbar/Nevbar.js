@@ -1,12 +1,13 @@
 import React from 'react'
 import "./Nevbar.css"
 import { Link ,useNavigate} from 'react-router-dom'
-import logo from "../../image/mtlogo.png"
+import logo from "../../image/g1.png"
 const Nevbar = () => {
   return (
     <>
      <div className='header'>
       <img src={logo} alt="myimg" className='logo'/>
+      <p>Jungle gym</p>
       <ul className='header-menu'>
       <li><a href="/" style={{textDecoration:"none",color:"white"}}>Home</a></li>
         <li><a href="#programs" style={{textDecoration:"none",color:"white"}}>Programs</a></li>
