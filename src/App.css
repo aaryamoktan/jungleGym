@@ -350,21 +350,15 @@
     gap:2rem;
     align-items: center;
   }
-  .hero-button>button:nth-last-of-type(2)
+  .hero-button>button
   {
     position:relative;
     margin-top: 40px;
-    background-color: #61dafb;
-    left:40px;
-  }
-  .hero-button>button:nth-last-of-type(1)
-  {
-    position:relative;
-    margin-top: 40px;
-    margin-left: 40px;
-    color:white;
+    background-color: transparent;
     border:2px solid #61dafb;
+    left:10rem;
   }
+  
   .right-h{
     position:relative;
     width:100%;

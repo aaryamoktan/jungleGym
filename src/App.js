@@ -39,17 +39,11 @@ function App() {
         {
             window.scrollTo(0,0)
         }}  style={{textDecoration:"none",color:"white"}}>Get Started</Link></button>
-            <button className='btn'><Link to="/learnmore" onClick={()=>
-        {
-            window.scrollTo(0,0)
-        }}  style={{textDecoration:"none",color:"white"}}>Learn More</Link></button>
+            
           </div>
         </div>
         <div className='right-h'>
-          <button className='btn'> <Link to="/plan" onClick={()=>
-        {
-            window.scrollTo(0,0)
-        }} style={{textDecoration:"none",color:"black"}}>Join Now</Link></button>
+         
           <div className='heart-rate'>
             <img src={heart} alt="heart"/>
             <span>Heart Rate</span><span>116 bpm</span>
