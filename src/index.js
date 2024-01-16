@@ -7,6 +7,7 @@ import Programsd from './Content/rogramsd/Programsd';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LAyout from './Content/LAyout';
+import Book from './Content/Book/Book';
 import Testomore from './Content/testomore/Testomore';
 import Plansd from './Content/Plansindetails/Plansd';
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
@@ -17,6 +18,10 @@ const router =createBrowserRouter([
     children:[{
       path:"",
       element:<App/>
+    },
+    {
+      path:"/book",
+      element:<Book/>
     },
   {
     path:"testomore",

@@ -12,4 +12,111 @@
     .plansd>img{
         position:relative
     }
+    button{
+        position:relative;
+        left:0.2rem;
+    }
+    .plansdd1{
+        position:relative;
+        width:100%;
+        color:white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100%;
+    }
+    .plansdd1>div:nth-last-of-type(2){
+        display:flex;
+        flex:2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
+    .plansdd1>div:nth-last-of-type(1){
+        position:relative;
+        width:50%;
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+        color:black;
+        border-radius: 20px;
+        left:-2rem;
+        justify-content: center;
+        align-items: center;
+        height:80vh;
+        background:rgb(168, 167, 167);
+    }
+    .plansdd2{
+        position:relative;
+        width:100%;
+        display:flex;
+        align-items: center;
+        color:white;
+        height:100%;
+    }
+   
+    .plansdd2>div:nth-last-of-type(1){
+        position:relative;
+        display:flex;
+        flex:2;
+        flex-direction: column;
+        gap:2rem;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .plansdd2>div:nth-last-of-type(2){
+        position:relative;
+        width:50%;
+        height:80vh;
+        background:white;
+        display:flex;
+        flex-direction: column;
+        left:2rem;
+        background:rgb(168, 167, 167);
+        margin-top: 2rem;
+        border-radius: 20px;
+        gap:2rem;
+        color:black;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .plansdd3{
+        position:relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        color:white;
+        height:100%;
+    }
+    .plansdd3>div:nth-last-of-type(2)
+    {
+        position:relative;
+        display:flex;
+        flex:2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
+    .plansdd3>div:nth-last-of-type(1){
+        position:relative;
+        flex:2;
+        height:80vh;
+        background:white;
+        display:flex;
+        margin-top: 2rem;
+        border-radius: 20px;
+        left:-2rem;
+        background:rgb(168, 167, 167);
+        margin-bottom: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+        color:black;
+    }
 }
