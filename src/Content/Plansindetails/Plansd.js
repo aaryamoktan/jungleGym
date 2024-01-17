@@ -21,16 +21,15 @@ const Plansd = () => {
         <div>
           <span>Basic Plan</span>
           <span></span>
-          <button ><Link to="/book" style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
+          <button ><Link to="/book" state={{title:"Basic Plan",cost:"25"}} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
         </div>
       </div>
       <div className='plansdd2'>
         <div>
         <span>Premium Plan</span>
           <span></span>
-          <button ><Link to="/book" style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
+          <button ><Link to="/book" state={{title:"Premium Plan",cost:"30"}} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
         </div>
-        
           <div>
             <span className='spans1'><FaCrown /></span>
             <span className='spans2'>Premium Plan</span>
@@ -38,7 +37,6 @@ const Plansd = () => {
             <span className='spans4'><span></span><span>5 hours of excercise</span></span>
             <span className='spans5'><span></span><span>Access to the  minibar</span></span>
           </div>
-        
       </div>
       <div className='plansdd3'>
           <div>
@@ -51,7 +49,7 @@ const Plansd = () => {
           <div>
           <span>Pro Plan</span>
           <span></span>
-          <button ><Link to="/book" style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
+          <button ><Link to="/book" state={{ title: "Pro Plan", cost:"45" }} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
           </div>
       </div>
     </div>
