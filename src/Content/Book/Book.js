@@ -11,7 +11,7 @@ const Book = () => {
     <div className='bookContainer'>
     <form>
       
-      <br/>
+    
       
       <p>Package {uselocation.state.title }</p>
       <input type="text" onChange={(e)=>
