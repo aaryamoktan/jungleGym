@@ -21,14 +21,20 @@ const Plansd = () => {
         <div>
 
           <span></span>
-          <button ><Link to="/book" state={{title:"Basic Plan",cost:"25"}} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
+          <button ><Link to="/book" onClick={()=>
+          {
+            window.scrollTo(0,0)
+          }} state={{title:"Basic Plan",cost:25}} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
         </div>
       </div>
       <div className='plansdd2'>
         <div>
         
           <span></span>
-          <button ><Link to="/book" state={{title:"Premium Plan",cost:"30"}} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
+          <button ><Link to="/book" state={{title:"Premium Plan",cost:30}} onClick={()=>
+          {
+            window.scrollTo(0,0)
+          }} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
         </div>
           <div>
             <span className='spans1'><FaCrown /></span>
@@ -49,7 +55,10 @@ const Plansd = () => {
           <div>
          
           <span></span>
-          <button ><Link to="/book" state={{ title: "Pro Plan", cost:"45" }} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
+          <button ><Link to="/book" state={{ title: "Pro Plan", cost:45 }} onClick={()=>
+          {
+            window.scrollTo(0,0)
+          }} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
           </div>
       </div>
     </div>
