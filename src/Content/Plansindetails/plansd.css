@@ -206,6 +206,7 @@
     .plansdd3{
         position:relative;
         display:flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         width:100%;
@@ -216,21 +217,21 @@
     {
         position:relative;
         display:flex;
-        flex:2;
+        width:100%;
         flex-direction: column;
-        justify-content: center;
+        margin-top: 8rem;
         align-items: center;
         gap:2rem;
     }
     .plansdd3>div:nth-last-of-type(1){
         position:relative;
-        flex:2;
-        height:80vh;
+        width:100%;
+        height:auto;
         background:white;
         display:flex;
         margin-top: 2rem;
         border-radius: 20px;
-        left:-2rem;
+       
         background:transparent;
         margin-bottom: 2rem;
         flex-direction: column;
