@@ -19,14 +19,14 @@ const Plansd = () => {
             <span className='span5'><span></span><span>Access to the  community</span></span>
           </div>
         <div>
-          <span>Basic Plan</span>
+
           <span></span>
           <button ><Link to="/book" state={{title:"Basic Plan",cost:"25"}} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
         </div>
       </div>
       <div className='plansdd2'>
         <div>
-        <span>Premium Plan</span>
+        
           <span></span>
           <button ><Link to="/book" state={{title:"Premium Plan",cost:"30"}} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
         </div>
@@ -47,7 +47,7 @@ const Plansd = () => {
             <span className='span5'><span></span><span>Access to the  all services</span></span>
           </div>
           <div>
-          <span>Pro Plan</span>
+         
           <span></span>
           <button ><Link to="/book" state={{ title: "Pro Plan", cost:"45" }} style={{textDecoration:"none",color:"black"}}>Book Now</Link></button>
           </div>
