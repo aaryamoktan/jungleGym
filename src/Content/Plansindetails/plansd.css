@@ -119,3 +119,125 @@
         color:black;
     }
 }
+@media screen and (max-width:600px) {
+    .plansd
+    {
+        position:relative;
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        height:auto;
+        align-items: center;
+        background:rgb(42, 42, 42);
+    }
+    .plansd>img{
+        position:relative
+    }
+    button{
+        position:relative;
+        left:0.2rem;
+    }
+    .plansdd1{
+        position:relative;
+        width:100%;
+        color:white;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:auto;
+        
+    }
+    .plansdd1>div:nth-last-of-type(2){
+        display:flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
+    .plansdd1>div:nth-last-of-type(1){
+        position:relative;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+        color:black;
+        border-radius: 20px;
+        align-items: center;
+        height:80vh;
+    }
+    .plansdd2{
+        position:relative;
+        width:100%;
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        color:white;
+        margin-top:-60vh;
+        height:auto;
+    }
+   
+    .plansdd2>div:nth-last-of-type(1){
+        position:relative;
+        display:flex;
+        width:100%;
+        flex-direction: column;
+        gap:2rem;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .plansdd2>div:nth-last-of-type(2){
+        position:relative;
+        width:100%;
+       
+        background:white;
+        display:flex;
+        flex-direction: column;
+       background:transparent;
+        margin-top: 2rem;
+        border-radius: 20px;
+        gap:2rem;
+        color:black;
+        align-items: center;
+    }
+    
+    .plansdd3{
+        position:relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        color:white;
+        height:100%;
+    }
+    .plansdd3>div:nth-last-of-type(2)
+    {
+        position:relative;
+        display:flex;
+        flex:2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:2rem;
+    }
+    .plansdd3>div:nth-last-of-type(1){
+        position:relative;
+        flex:2;
+        height:80vh;
+        background:white;
+        display:flex;
+        margin-top: 2rem;
+        border-radius: 20px;
+        left:-2rem;
+        background:transparent;
+        margin-bottom: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+        color:black;
+    }
+    
+}
