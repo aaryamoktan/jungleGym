@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./book.css"
 import { useLocation } from 'react-router-dom'
-const Book = () => {
+const Book = ({props}) => {
   const uselocation = useLocation();
   const [months,setmonths] = useState()
   let Cost = uselocation.state.cost
