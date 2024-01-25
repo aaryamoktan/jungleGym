@@ -6,7 +6,6 @@ import img1 from "../../image/eat.png"
 import img2 from "../../image/boilC.png"
 import img3 from "../../image/boil.png"
 import img4 from "../../image/picg.jpg"
-
 const Getstart = () => {
   return (
     <>
@@ -39,8 +38,7 @@ const Getstart = () => {
         <div className='motivationD'>
           <span>We are what we repeatedly do. Excellence then is not an act but a habit</span>
         </div>
-    </div>
-    
+    </div> 
     </>
   )
 }
