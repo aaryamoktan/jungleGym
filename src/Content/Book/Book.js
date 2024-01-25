@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import "./book.css"
 import { useLocation } from 'react-router-dom'
 const Book = ({ props }) => {
