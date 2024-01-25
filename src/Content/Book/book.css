@@ -1,2 +1,70 @@
-
-
+@media screen and (min-width:1224px){
+.bookContainer{
+    position:relative;
+    width:100%;
+    height:80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(42, 42, 42);
+}
+.bookContainer>.bookForm{
+    position:relative;
+    width:20%;
+    height:50%;
+    backdrop-filter: blur(10px);
+}
+.bookContainer>.bookForm>p{
+    position:relative;
+    font-size: 25px;
+    top:2%;
+    left:30%;
+}
+form>input{
+    position:relative;
+    width:90%;
+    height:5vh;
+    left:5%;
+    margin-top: 10px;
+}
+form>button{
+    position:relative;
+    margin-top:10px;
+    margin-left:20%;
+}
+}
+@media screen and (max-width:600px) {
+    .bookContainer{
+        position:relative;
+        width:100%;
+        height:70vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background:rgb(42, 42, 42);
+    }
+    .bookContainer>.bookForm{
+        position:relative;
+        width:60%;
+        height:50%;
+        backdrop-filter: blur(10px);
+    }
+    .bookContainer>.bookForm>p{
+        position:relative;
+        font-size: 25px;
+        top:2%;
+        left:30%;
+    }
+    form>input{
+        position:relative;
+        width:90%;
+        height:5vh;
+        left:5%;
+        margin-top: 10px;
+    }
+    form>button{
+        position:relative;
+        margin-top:10px;
+        margin-left:20%;
+    } 
+}

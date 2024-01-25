@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import heart from "./image/heart.png"
 import body from "./image/body4.png"
-import back from "./image/l.png"
 import cal from "./image/cal.png"
 import Testo from './Content/testomonial/Testo';
 import Programs from './Content/Programs/Programs';
@@ -10,7 +8,6 @@ import Nevbar from './Content/Nevbar/Nevbar';
 import { Link } from 'react-router-dom';
 import Whyus from './Content/whyus/Whyus';
 import { WiDirectionUp } from "react-icons/wi";
-import Footer from './Content/footer/Footer';
 import Plans from './Content/Plans/Plans';
 function App() {
   return (
