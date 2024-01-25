@@ -12,18 +12,13 @@ const Book = ({ props }) => {
       <div className='bookForm'>
         <p>{uselocation.state.title}</p>
         <form>
-
           <input type="text" placeholder='Enter your name' onChange={(e) => {
             setUsername(e.target.value)
           }} value={username} />
-
           <input type="text" placeholder='Enter your EmailId' onChange={(e) => {
             setPhone(e.target.value)
           }} value={phone} />
-
-
           <input type="number" placeholder=" months" onChange={(e) => {
-
             setmonths(e.target.value)
           }} value={months} />
           <button >${months * Cost}</button>
@@ -35,5 +30,4 @@ const Book = ({ props }) => {
     </div>
   )
 }
-
 export default Book
